@@ -1,0 +1,48 @@
+.detail-image-section {
+    background-color: black;
+    width: 100vw;
+    height: 40vh;
+    max-height: 400px;
+}
+
+.detail-image-section img {
+    height: 100%;
+}
+
+.detail-content-section {
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.detail-info-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.detail-info-top p {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+#detail-movie-description {
+    font-size: 1.6rem;
+    font-style: italic;
+}
+
+#detail-movie-name {
+    font-size: 4.5rem;
+    align-self: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+    .detail-content-section {
+        text-align: left;
+    }
+
+    .detail-info-top {
+        flex-direction: row;
+        gap: 5rem;
+        justify-content: flex-start;
+    }
+  }
